@@ -1,0 +1,41 @@
+{
+  "name": "obsidian-vault-bridge",
+  "version": "1.0.0",
+  "description": "MCP bridge that auto-detects your Obsidian vaults and serves them to AI assistants",
+  "type": "module",
+  "bin": {
+    "obsidian-vault-bridge": "./bin/bridge.mjs"
+  },
+  "files": [
+    "bin",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "doctor": "node bin/bridge.mjs --doctor"
+  },
+  "dependencies": {
+    "obsidian-mcp": "^2.0.1"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "keywords": [
+    "obsidian",
+    "mcp",
+    "model-context-protocol",
+    "vault",
+    "notes",
+    "pkm"
+  ],
+  "author": "Strange Leo <strangeyu911@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/strangeyu911-tech/obsidian-vault-bridge.git"
+  },
+  "bugs": {
+    "url": "https://github.com/strangeyu911-tech/obsidian-vault-bridge/issues"
+  },
+  "homepage": "https://github.com/strangeyu911-tech/obsidian-vault-bridge#readme"
+}
